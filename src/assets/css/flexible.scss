@@ -1,0 +1,8 @@
+@charset "utf-8";
+// 全站通用参数
+$cgreen: #00b65e;
+$cred: #ff5647;
+// ui图为750
+@function pxToRem($px) {
+	@return $px / 75px * 1rem;
+}

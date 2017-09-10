@@ -1,0 +1,16 @@
+%rma {
+  text-decoration: none;
+  color: inherit;
+}
+
+%rmpm {
+  padding: 0;
+  margin: 0;
+}
+
+%overflow {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

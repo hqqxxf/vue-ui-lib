@@ -1,0 +1,15 @@
+/*
+  普通元素  0-99
+  吸顶/吸底/漂浮  100～199
+  弹窗  200～299
+  toast 300~399
+  Loading/分享蒙层  400～499
+
+  * 一个页面有多个同类元素，请在基础上+1
+  * eg: $z-index-popup + 1, $z-index-popup + 2
+*/
+
+$z-index-sticky: 100;
+$z-index-popup: 200;
+$z-index-toast: 300;
+$z-index-loading: 400;

@@ -1,0 +1,11 @@
+@mixin arrow($color: white, $w: pxToRem(15px)) {
+  position: absolute;
+  top: 50%;
+  border: 2px solid $color;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  width: $w;
+  height: $w;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg);
+}

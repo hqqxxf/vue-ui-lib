@@ -1,0 +1,30 @@
+// common color
+$zzyp-warning-color: #ffc107;
+$zzyp-danger-color: #ff5647;
+$zzyp-primary-color: #00b65e;
+$zzyp-btn-forbidden-color: #7B828B;
+$zzyp-black-color: black;
+$zzyp-white-color: white;
+$zzyp-border-color: #EFEFEF;
+
+// mask layer
+$zzyp-mask-layer: rgba(0, 0, 0, .6);
+
+// Addr Component
+$zzyp-addr-bg-color: #f0f1f2;
+$zzyp-addr-select-bg-color: #eee;
+$zzyp-addr-border-color: #a8a9ac;
+
+// Toast Component
+$zzyp-toast-bg: rgba(0, 0, 0, 0.7);
+
+// Btn Component
+$zzyp-btn-height: pxToRem(70px);
+$zzyp-btn-font: pxToRem(26px);
+
+// z-index
+$zzyp-z-index-normal: 1;
+$zzyp-z-index-two: 99;
+$zzyp-z-index-three: 999;
+
+
